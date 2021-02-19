@@ -18,6 +18,7 @@ catch the balls as they drop and break all the blocks
 In order to design your own levels you will need to create 2 types of text files:
 - A block defenitions file for each level describing the types of blocks that the level uses
 - 1 level defenitions file to describe the structure and parameters of all the levels
+<br>
 
 ### Block Definitions File Format
 The block definitions file maps characters to spacing elements or block-information.
@@ -42,6 +43,7 @@ each block defenition includes the following keys:
   - color(colorname), see definition above (same as with fill).
   - color(RGB(x,y,z)), see definition above (same as with fill).
 
+<br>
 
 - set values for a type of spacer and bind it to a symbol:
 sdef symbol:* width:20
