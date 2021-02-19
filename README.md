@@ -58,9 +58,6 @@ A spacer-definition line has two properties (it does not inherit default definit
 - symbol: the character which is used to represent the space-type in the levels-information file. Must be a single character.
 - width: the width of the spacing element in pixels. Must be a positive integer.
 
-<br>
-<br>
-
 ### Level Definitions File Format
 The file contains a sequence of level specifications. Each level specification begins with the line START_LEVEL and ends with the line END_LEVEL. <br>
 
