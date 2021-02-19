@@ -20,6 +20,8 @@ In order to design your own levels you will need to create 2 types of text files
 - 1 level defenitions file to describe the structure and parameters of all the levels
 <br>
 
+Run the program with the path to your level defenitions file as the first argument or run with no arguments to use the premade levels
+
 ### Block Definitions File Format
 The block definitions file maps characters to spacing elements or block-information.
 
