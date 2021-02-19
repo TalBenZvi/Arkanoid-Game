@@ -9,10 +9,12 @@ catch the balls as they drop and break all the blocks
 - Press 'p' mid game to pause, press SPACE to resume (or continue to the next screen)
 - High score tracker that remembers your high score between runs (high score saved in file 'highscores.txt')
 - Current score and lives indicated at the top of the screen
-- Play my premade levels by importing the 'resources' directory or design your own
+- Play my premade levels by importing the 'resources' directory or design your own (rules explained below)
 <br>
 <br>
 
+### BIUOOP
+Special thanks to Bar-Ilan University for providing me with the means to use their graphic features (the biuoop package is necessary for those to work)
 
 ## Level Design
 In order to design your own levels you will need to create 2 types of text files:
