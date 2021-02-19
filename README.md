@@ -32,8 +32,8 @@ set default values for all the blocks by writing a single a single line in the n
 default key1:value1 key2:value2 ...
 
 set values for a type of block and bind it to a symbol: <br>
-bdef symbol:a key1:value1 key2:value2 <br>
-bdef symbol:b key1:value1 key2:value2
+bdef symbol:a key1:value1 key2:value2 ... <br>
+bdef symbol:b key1:value1 key2:value2 ... 
 <br>
 
 each block defenition includes the following keys:
@@ -92,5 +92,5 @@ Each level includes the following keys, as well as a BLOCKS section, which will 
 The block layout starts with a START_BLOCKS line and ends with an END_BLOCKS line. It should appear at the end of the level information. Within the block layout, each line (non empty) specifies one row of blocks, from row 0 downwards. A line with only spacer(s) means an empty row. Within each line, each character corresponds to either a block or an horizontal space, as defined in the blocks definition file.
 <br>
 
-<b>For an examples of level and block design files, see 'resouces'</b>
+<b>For examples of level and block design files, see 'resouces'</b>
 
