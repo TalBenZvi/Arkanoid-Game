@@ -38,7 +38,19 @@ each block defenition includes the following keys:
   - color(colorname), where colorname is one of black, blue, cyan, gray, lightGray, green, orange, pink, red, white, yellow.
   - color(RGB(x,y,z)), where x, y, z are integers. The block should have the RGB color specified by the given x, y and z components.
   - image(filaneme.png), where filename.png is the name of a file. In this case, the blocks appearance should be taken from the given file. (The image is loaded at the position     of the block, no resizing or clipping is required, the image size must match the size of the definition)
+- stroke: The blocks border is drawn using one of the following value formats (if this property is missing, no border is drawn):
+  - color(colorname), see definition above (same as with fill).
+  - color(RGB(x,y,z)), see definition above (same as with fill).
+
 
 - set values for a type of spacer and bind it to a symbol:
 sdef symbol:* width:20
 sdef symbol:^ width:10
+
+A spacer-definition line has two properties (it does not inherit default definitions):
+- symbol: the character which is used to represent the space-type in the levels-information file. Must be a single character.
+- width: the width of the spacing element in pixels. Must be a positive integer.
+
+
+
+
