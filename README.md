@@ -26,8 +26,8 @@ The block definitions file maps characters to spacing elements or block-informat
 set default values for all the blocks by writing a single a single line in the next format:<br>
 default key1:value1 key2:value2 ...
 
-set values for a type of block and bind it to a symbol:<br>
-bdef symbol:a key1:value1 key2:value2
+set values for a type of block and bind it to a symbol: <br>
+bdef symbol:a key1:value1 key2:value2 <br>
 bdef symbol:b key1:value1 key2:value2
 <br>
 
@@ -46,12 +46,44 @@ each block defenition includes the following keys:
 <br>
 
 set values for a type of spacer and bind it to a symbol:<br>
-sdef symbol:* width:20
+sdef symbol:* width:20 <br>
 sdef symbol:^ width:10
 
 A spacer-definition line has two properties (it does not inherit default definitions):
 - symbol: the character which is used to represent the space-type in the levels-information file. Must be a single character.
 - width: the width of the spacing element in pixels. Must be a positive integer.
+
+<br>
+<br>
+
+### Level Definitions File Format
+The file contains a sequence of level specifications. Each level specification begins with the line START_LEVEL and ends with the line END_LEVEL. <br>
+
+level specifications format: <br>
+START_LEVEL <br>
+key1:value1 <br>
+(...) <br>
+keyN:valueN <br>
+START_BLOCKS <br>
+[LEVEL STRUCTURE] <br>
+END_BLOCKS <br>
+END_LEVEL <br>
+
+<br>
+Each level includes the following keys, as well as a BLOCKS section, which will be described below: <br>
+
+- level_name specified the name of the level.
+- ball_velocities specifies the ball velocities. This field is a space-separated list of items, each item is of the form a,s where s is the speed and a is the angle.
+- background specifies the level's background. The format of its value is exactly the same as for the fill property when defining a block, it supports the two color formats and the image format.
+- paddle speed specifies the paddle speed.
+- paddle width specifies the paddle width.
+- block_definitions specifies the file from which block definitions are read.
+- blocks_start_x the blocks layout horizontal starting point, or the x value of the first block in every column.
+- blocks_start_y the block layout vertical starting point, or the y value of the blocks on the first row.
+- row_height- the blocks are arranged in equally-spaced rows. This field specifies the number of pixels in each row. If first row y value is 50 (blocks_start_y:50), the second row will be located at 50 + the value of row_height. 
+- num_blocks the number of blocks that need to be destroyed in order to pass this level.
+
+
 
 
 
