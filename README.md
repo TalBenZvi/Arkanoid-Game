@@ -65,7 +65,7 @@ key1:value1 <br>
 (...) <br>
 keyN:valueN <br>
 START_BLOCKS <br>
-[LEVEL STRUCTURE] <br>
+[BLOCK_LAYOUT] <br>
 END_BLOCKS <br>
 END_LEVEL <br>
 
@@ -82,9 +82,10 @@ Each level includes the following keys, as well as a BLOCKS section, which will 
 - blocks_start_y the block layout vertical starting point, or the y value of the blocks on the first row.
 - row_height- the blocks are arranged in equally-spaced rows. This field specifies the number of pixels in each row. If first row y value is 50 (blocks_start_y:50), the second row will be located at 50 + the value of row_height. 
 - num_blocks the number of blocks that need to be destroyed in order to pass this level.
+<br>
 
+The block layout starts with a START_BLOCKS line and ends with an END_BLOCKS line. It should appear at the end of the level information. Within the block layout, each line (non empty) specifies one row of blocks, from row 0 downwards. A line with only spacer(s) means an empty row. Within each line, each character corresponds to either a block or an horizontal space, as defined in the blocks definition file.
+<br>
 
-
-
-
+<b>For an examples of level and block design files, see 'resouces'</b>
 
