@@ -15,6 +15,8 @@ catch the balls as they drop and break all the blocks
 
 ### BIUOOP
 Special thanks to Bar-Ilan University for providing me with the means to use their graphic features (the biuoop package is necessary for those to work)
+<br>
+<br>
 
 ## Level Design
 In order to design your own levels you will need to create 2 types of text files:
