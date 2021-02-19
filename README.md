@@ -11,7 +11,6 @@ catch the balls as they drop and break all the blocks
 - Current score and lives indicated at the top of the screen
 - Play my premade levels by importing the 'resources' directory or design your own (rules explained below)
 <br>
-<br>
 
 ### BIUOOP
 Special thanks to Bar-Ilan University for providing me with the means to use their graphic features (the biuoop package is necessary for those to work)
