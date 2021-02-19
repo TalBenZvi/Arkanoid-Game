@@ -92,5 +92,5 @@ Each level includes the following keys, as well as a BLOCKS section, which will 
 The block layout starts with a START_BLOCKS line and ends with an END_BLOCKS line. It should appear at the end of the level information. Within the block layout, each line (non empty) specifies one row of blocks, from row 0 downwards. A line with only spacer(s) means an empty row. Within each line, each character corresponds to either a block or an horizontal space, as defined in the blocks definition file.
 <br>
 
-<b>For examples of level and block design files, see 'resouces'</b>
+<b>For examples of level and block design files, see 'resources'</b>
 
