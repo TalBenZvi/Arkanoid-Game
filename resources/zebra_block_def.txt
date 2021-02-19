@@ -1,0 +1,6 @@
+default width:50
+
+bdef symbol:z fill:image(resources/zebra.jpg) height:25 
+bdef symbol:f fill:color(gray) stroke:color(black) height:15
+
+sdef symbol:* width:50

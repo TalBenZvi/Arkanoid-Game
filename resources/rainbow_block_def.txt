@@ -1,0 +1,8 @@
+default height:25 stroke:color(black)
+
+bdef symbol:r fill:color(RGB(255,0,0)) width:100
+bdef symbol:y fill:color(RGB(255,255,0)) width:90
+bdef symbol:g fill:color(RGB(0,255,0)) width:80
+bdef symbol:b fill:color(RGB(0,0,255)) width:70
+
+sdef symbol:- width:50

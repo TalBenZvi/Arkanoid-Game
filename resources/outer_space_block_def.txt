@@ -1,0 +1,7 @@
+default width:15 height:15 
+
+bdef symbol:w fill:color(white)
+bdef symbol:y fill:color(yellow)
+
+sdef symbol:- width:20
+sdef symbol:^ width:50
