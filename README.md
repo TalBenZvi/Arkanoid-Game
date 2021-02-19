@@ -23,10 +23,10 @@ In order to design your own levels you will need to create 2 types of text files
 ### Block Definitions File Format
 The block definitions file maps characters to spacing elements or block-information.
 
-- set default values for all the blocks by writing a single a single line in the next format:
+set default values for all the blocks by writing a single a single line in the next format:<br>
 default key1:value1 key2:value2 ...
 
-- set values for a type of block and bind it to a symbol:
+set values for a type of block and bind it to a symbol:<br>
 bdef symbol:a key1:value1 key2:value2
 bdef symbol:b key1:value1 key2:value2
 <br>
@@ -45,7 +45,7 @@ each block defenition includes the following keys:
 
 <br>
 
-- set values for a type of spacer and bind it to a symbol:
+set values for a type of spacer and bind it to a symbol:<br>
 sdef symbol:* width:20
 sdef symbol:^ width:10
 
